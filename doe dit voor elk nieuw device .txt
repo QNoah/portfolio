@@ -1,0 +1,5 @@
+1. git pull (als je ooit al iets hebt gepushed ) "url"
+
+git remote add origin https://github.com/QNoah/portfolio.git
+git branch -M main
+git push -u origin main
