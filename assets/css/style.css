@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+#overlay-video-bg{
+    background: rgba(0, 0, 0, 0.467);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.home-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#name-website{
+    position: absolute;
+    z-index: 2;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+h1{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    text-align: center;
+    height: 120px;
+    color: white;
+}
+h2{
+    font-size: 80px;
+    /* margin-left: 10%; */
+    top: 15%;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0;
+}
+p{
+    color: white;
+}
+nav{
+    position: absolute;
+    font-size: 20px;
+    z-index: 10;
+    margin-left: 38%;
+    margin-top: 29%;
+}
+ul{
+    display: flex;
+    margin: 0;
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+    color: white;
+}
+a{
+    color: white;
+}
+section{
+    height: 100vh;
+    position: relative;
+}
+#section-1{
+    position: relative;
+    top: 1000px;
+    background: url("../imgs/pexels-kevin-demeyer-9957880.jpg");
+    z-index: -1;
+}
+#asda{
+    padding-top: 100px;
+}
+#info-me{
+    margin-left: 10%;
+    width: 500px;
+}
+#html-css-logos{
+    width: auto;
+    height: 25px;
+}
