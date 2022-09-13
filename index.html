@@ -12,12 +12,13 @@
 </head>
 <body>
     <main>
+        <img class="hamburger_icon" src="./assets/imgs/Hamburger_icon.svg.png" onclick="hamburgerToon();">
         <div id="name-website">
             <h1>Quinten</h1>
             <h1>Nagel</h1>
         </div>
         <nav>
-            <ul>
+            <ul class="desktop-links">
                 <li>
                     <a href="./index.html">Home</a>
                 </li>
@@ -31,9 +32,26 @@
                     <a href="./index.html">Contact</a>
                 </li>
             </ul>
+            <ul class="mobile-links">
+                <div id="myLinks" style="display: none;">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about-me.html">About me</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Contact</a>
+                    </li>
+                </div>
+            </ul>
         </nav>
-        <video class="home-background" src="./assets/videos/Pexels Videos 2547258.mp4" muted loop autoplay></video>
+        <video class="home-background" src="./assets/videos/Pexels Videos 2547258.mp4#t=3" muted loop autoplay></video>
         <div id="overlay-video-bg"></div>
     </main>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>

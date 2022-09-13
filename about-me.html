@@ -12,12 +12,13 @@
 </head>
 <body>
     <main>
+        <img class="hamburger_icon" src="./assets/imgs/Hamburger_icon.svg.png" onclick=hamburgerToon();>
         <div id="name-website">
             <h1>About</h1>
             <h1>Me</h1>
         </div>
         <nav>
-            <ul>
+            <ul class="desktop-links">
                 <li>
                     <a href="./index.html">Home</a>
                 </li>
@@ -31,21 +32,58 @@
                     <a href="./index.html">Contact</a>
                 </li>
             </ul>
+            <ul class="mobile-links">
+                <div id="myLinks" style="display: none;">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about-me.html">About me</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Contact</a>
+                    </li>
+                </div>
+            </ul>
         </nav>
         <video class="home-background" src="./assets/videos/about-me.mp4" muted loop autoplay></video>
-        <div id="overlay-video-bg">
             <section id="section-1">
-                <div id="asda">
+                <div id="infos">
                     <div id="info-me">
                         <h2>Who am i?</h2>
-                        <p>I am a student, currently at Grafisch Lyceum Utrecht. This is where i study web development. I am specialized in HTML & CSS.</p>
-                        <img id="html-css-logos" src="./assets/imgs/CSS3_and_HTML5_logos_and_wordmarks.svg.png">
-                        <p>Currently I live in Rotterdam, where I do my daily things and where I study. If i have finished this education, I will go and finish another education.</p>
-                        <p>My goal for now is to finish my school and have a secured job I could do if my other schools won't succeed.</p>
+                        <div class="p-background">
+                            <p>I am a student, currently at Grafisch Lyceum Utrecht. This is where I study web development. I am specialized in HTML & CSS.</p>
+                            <img id="html-css-logos" src="./assets/imgs/CSS3_and_HTML5_logos_and_wordmarks.svg.png">
+                            <p>Currently I live in Rotterdam, where I do my daily things and where I study. If i have finished this education, I will go and finish another education.</p>
+                            <p>My goal for now is to finish my school and have a secured job that I could do if my other schools won't succeed.</p>
+                        </div>
+                    </div>
+                    <div id="education">
+                        <h2>Education</h2>
+                        <div class="p-background">
+                            <p>A bit about my educations</p>
+                            <hr>
+                            <p>- Army / 2020 - 2021 / Failed</p>
+                            <p>- Web development / 2021 - Now / In progress</p>
+                        </div>
+                    <div id="languages">
+                        <h2>Languages I speak</h2>
+                        <div class="p-background">
+                            <p>- English</p>
+                            <p>- Dutch</p>
+                        </div>
+                    </div>
                     </div>
                 </div>
+            </section>
+            <section id="section-2">
+                <h3>ajsjdaj</h3>
             </section>
         </div>
     </main>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>
